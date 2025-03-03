@@ -16,3 +16,27 @@ li {
 .secondary--section-color {
     background-color: var(--secondary-bg-color);
 }
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 80px;
+
+    img {
+        width: 250px;
+    }
+
+    ul {
+        display: flex;
+        column-gap: 50px;
+        a {
+            color: black;
+        }
+    }
+}
