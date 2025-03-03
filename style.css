@@ -85,65 +85,68 @@ li {
     background: #167883;
     padding: 0.5em;
 
-a {
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 30px 80px;
-
-    img {
-        width: 250px;
+    a {
+        text-decoration: none;
     }
 
-    ul {
-        display: flex;
-        column-gap: 50px;
-        a {
-            color: black;
-        }
-    }
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 100%;
-    padding: 30px 80px;
-
-    img {
-        width: 250px;
-        height: 100%;
-    }
-
-    #footer_nav {
+    header {
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        align-items: center;
+
+        padding: 30px 80px;
+
+        img {
+            width: 250px;
+        }
 
         ul {
             display: flex;
-            flex-direction: column;
-            row-gap: 10px;
-            padding: 0px;
+            column-gap: 50px;
+
+            a {
+                color: black;
+            }
         }
     }
 
-    #copyright {
-        width: 300px;
-        border-top: 1px white solid;
-        text-align: center;
-    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        padding: 30px 80px;
 
-    h2, a, p {
-        color: white;
-    }
+        img {
+            width: 250px;
+            height: 100%;
+        }
 
+        #footer_nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                padding: 0px;
+            }
+        }
+
+        #copyright {
+            width: 300px;
+            border-top: 1px white solid;
+            text-align: center;
+        }
+
+        h2,
+        a,
+        p {
+            color: white;
+        }
+    }
 }
