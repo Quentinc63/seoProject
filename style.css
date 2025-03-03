@@ -15,6 +15,11 @@ li {
 
 .secondary--section-color {
     background-color: var(--secondary-bg-color);
+
+    img {
+        width: 200px;
+        height: 100%;
+    }
 }
 
 
@@ -89,6 +94,13 @@ li {
         text-decoration: none;
     }
 
+}
+
+#agency {
+    img {
+        width: 200px;
+        height: 100%;
+    }
 }
 
 
