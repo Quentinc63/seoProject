@@ -95,11 +95,7 @@ li {
     text-decoration: none;
     background: #167883;
     padding: 0.5em;
-
-    a {
-        text-decoration: none;
-    }
-
+    text-decoration: none;
 }
 
 header {
@@ -206,7 +202,40 @@ footer {
     h2, a, p {
         color: white;
     }
+}
 
+#banner{
+    max-width: 100vw;
+    height: 20vw;
+    background-image: url(img/cascade.jpg);
+    background-position: center;
+}
 
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    opacity: 30%;
+    width: 30vw;
+    height: 100%;
 
+    h1{
+        opacity: 100%;
+        color: white;
+    }
+
+    a{
+        align-self: center;
+        text-align: center;
+        border-radius: 50px;
+        border: 2px solid #41BDD3;
+        color: white;
+        text-decoration: none;
+        background: #167883;
+        padding: 0.5em;
+        text-decoration: none;
+        opacity: 100%;
+    }
 }
