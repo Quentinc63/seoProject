@@ -19,6 +19,9 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
 .secondary--section-color {
     background-color: var(--secondary-bg-color);
 
